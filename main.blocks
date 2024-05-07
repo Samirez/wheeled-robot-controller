@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="#Dp]H8.E5gb{,Ggg_`,A" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="Ig]H01n^#.TMI}[w+fyJ"><value name="ID"><shadow type="math_number_minmax" id="cu]HmfX|5TLJsb@BW8^I"><mutation min="0" max="255" label="Number" precision="0"></mutation><field name="SLIDER">2</field></shadow></value></block></statement></block><block type="device_forever" id="S%/f5:x*^bJPcR2+R.:s" x="381" y="-12"><statement name="HANDLER"><block type="controls_if" id="yk7JhNxlxB}Si--s}fmo"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="gamerbit_ispressed" id="Ou0)aMv37NO1]t10zY}I"><field name="button">GamerBitPin.P16</field></block></value><statement name="DO0"><block type="controls_if" id="eLZFO}tx_,6zQ@Nv^d]5"><mutation elseif="3"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="gamerbit_ispressed" id="s},e+|V/l_XH?3h~k^dX"><field name="button">GamerBitPin.P0</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="en%[%:0IZuv-/JqzBuhH"><value name="value"><shadow type="math_number" id="uL{r+XK1Rx%(zSAprfx]"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="b/N+Kh.UU9UlxV3t0Phn"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="gamerbit_ispressed" id="OKJ@!o;].ckq;(XDF6PP"><field name="button">GamerBitPin.P2</field></block></value><statement name="DO1"><block type="radio_datagram_send" id=")s!ky[LDwizhH0[ITP^k"><value name="value"><shadow type="math_number" id="1h!dbv99qSJTG]q`yLY+"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="RZ+iU74t8K!ExLZ1%@yr"><field name="LEDS">`
+        . # # # # 
+        . . . # # 
+        . . # . # 
+        . # . . # 
+        . # . . .
+        `</field></block></next></block></statement><value name="IF2"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="gamerbit_ispressed" id="YbSv!S42x/hcIl)48@9("><field name="button">GamerBitPin.P8</field></block></value><statement name="DO2"><block type="radio_datagram_send" id="YdPMz1nVd%}lYp8*db*N"><value name="value"><shadow type="math_number" id="i0$hirnnENo5G,MJ-D[T"><field name="NUM">2</field></shadow></value><next><block type="device_show_leds" id="AoeIR$zD8P`lI}Ba!1dY"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement><value name="IF3"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="gamerbit_ispressed" id="zZngAyW/%|]VochYINa5"><field name="button">GamerBitPin.P1</field></block></value><statement name="DO3"><block type="radio_datagram_send" id="w#XyoV_78,lbmhq8:$[O"><value name="value"><shadow type="math_number" id="YxJcr;UFE{5|Vg1}_jaO"><field name="NUM">3</field></shadow></value><next><block type="device_show_leds" id="fh3iNw4^Y4JY`#nSD(gQ"><field name="LEDS">`
+        # # # # . 
+        # # . . . 
+        # . # . . 
+        # . . # . 
+        . . . # .
+        `</field></block></next></block></statement></block></statement><next><block type="device_clear_display" id="tJg:ytvp*^vM2x@i9Ipq"></block></next></block></statement></block></xml>
