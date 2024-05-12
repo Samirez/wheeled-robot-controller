@@ -11,10 +11,12 @@ gamerbit.onEvent(GamerBitPin.P12, GamerBitEvent.Down, function () {
     InterpolationCurve.Linear
     ), music.PlaybackMode.UntilDone)
 })
+gamerbit.onEvent(GamerBitPin.P16, GamerBitEvent.Down, function () {
+    music.play(music.stringPlayable("C5 A - F - E D C ", 180), music.PlaybackMode.UntilDone)
+})
 radio.setGroup(2)
 basic.forever(function () {
     if (gamerbit.isPressed(GamerBitPin.P16)) {
-        music.play(music.stringPlayable("C5 A B - A C5 F D ", 185), music.PlaybackMode.UntilDone)
         if (gamerbit.isPressed(GamerBitPin.P0)) {
             radio.sendNumber(0)
             basic.showLeds(`
