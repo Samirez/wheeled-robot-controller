@@ -1,5 +1,15 @@
 gamerbit.onEvent(GamerBitPin.P12, GamerBitEvent.Down, function () {
     radio.sendNumber(4)
+    music.play(music.createSoundExpression(
+    WaveShape.Sine,
+    5000,
+    0,
+    255,
+    0,
+    2000,
+    SoundExpressionEffect.None,
+    InterpolationCurve.Linear
+    ), music.PlaybackMode.UntilDone)
 })
 radio.setGroup(2)
 basic.forever(function () {
