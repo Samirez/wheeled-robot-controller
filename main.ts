@@ -1,3 +1,6 @@
+gamerbit.onEvent(GamerBitPin.P12, GamerBitEvent.Down, function () {
+    radio.sendNumber(4)
+})
 radio.setGroup(2)
 basic.forever(function () {
     if (gamerbit.isPressed(GamerBitPin.P16)) {
